@@ -1,0 +1,11 @@
+    1  vim Dockerfile
+    2  cat Dockerfile 
+    3  docker build -t myimage
+    4  ls
+    5  docker images
+    6  docker build -t myimage .
+    7  docker images
+    8  docker ps -a
+    9  docker run -it --name mycontainer myimage
+   10  ls
+   11  history > docker_build.txt

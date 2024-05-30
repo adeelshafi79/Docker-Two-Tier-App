@@ -1,0 +1,25 @@
+    1  exit
+    2  sudo apt install docker
+    3  docker -version
+    4  apt install docker.ioi
+    5  apt install docker.io
+    6  docker --version
+    7  docker status
+    8  docker info
+    9  service docker start
+   10  docker --version
+   11  docker status
+   12  docker stats
+   13  docker info
+   14  docker run -it --name firstcontainer ubuntu /bin/bash
+   15  docker ps
+   16  docker ps -a
+   17  docker images
+   18  docker diff firscontainer
+   19  docker diff firstcontainer
+   20  docker commit newcontainer updateimage
+   21  docker commit firstcontainer updateimage
+   22  docker images
+   23  docker run -it --name secondcontainer /bin/bash
+   24  docker run -it --name secondcontainer updateimage /bin/bash
+   25  history > docker_container_commands.txt
